@@ -82,6 +82,7 @@ public class RoomsController implements Initializable {
         Button button = (Button) event.getSource();
         button.getScene().getWindow().hide();
         FXMLLoader loader = new FXMLLoader();
+        //hi
 
         loader.setLocation(getClass().getResource("/sample/view/dashboard.fxml"));
         try {
