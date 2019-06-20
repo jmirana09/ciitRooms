@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SearchByRoomController">
+   <children>
+      <ImageView fitHeight="19.0" fitWidth="155.0" layoutX="474.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ciitrooms.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="305.0" layoutY="34.0" text="SEARCH BY ROOM" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="258.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-room-64.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="room701ButtonID" layoutX="335.0" layoutY="69.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 701" textFill="WHITE" />
+      <JFXButton fx:id="room606ButtonID" layoutX="87.27" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 606" textFill="WHITE" />
+      <JFXButton fx:id="room605ButtonID" layoutX="186.54" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 605" textFill="WHITE" />
+      <JFXButton fx:id="room604ButtonID" layoutX="285.81" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 604" textFill="WHITE" />
+      <JFXButton fx:id="room603ButtonID" layoutX="385.08" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 603" textFill="WHITE" />
+      <JFXButton fx:id="room602ButtonID" layoutX="484.35" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 602" textFill="WHITE" />
+      <JFXButton fx:id="room601ButtonID" layoutX="583.62" layoutY="106.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 601" textFill="WHITE" />
+      <JFXButton fx:id="room506ButtonID" layoutX="87.27" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 506" textFill="WHITE" />
+      <JFXButton fx:id="room505ButtonID" layoutX="186.54" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 505" textFill="WHITE" />
+      <JFXButton fx:id="room504ButtonID" layoutX="285.81" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 504" textFill="WHITE" />
+      <JFXButton fx:id="room503ButtonID" layoutX="385.08" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 503" textFill="WHITE" />
+      <JFXButton fx:id="room502ButtonID" layoutX="484.35" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 502" textFill="WHITE" />
+      <JFXButton fx:id="room501ButtonID" layoutX="583.62" layoutY="139.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Room 501" textFill="WHITE" />
+      <JFXButton fx:id="room403ButtonID" layoutX="140.0" layoutY="172.0" onAction="#buttonPressed" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #00364d;" text="Room 403" textFill="WHITE" />
+      <JFXButton fx:id="room402ButtonID" layoutX="317.5" layoutY="172.0" onAction="#buttonPressed" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #00364d;" text="Room 402" textFill="WHITE" />
+      <JFXButton fx:id="room401ButtonID" layoutX="492.0" layoutY="172.0" onAction="#buttonPressed" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #00364d;" text="Room 401" textFill="WHITE" />
+      <JFXButton fx:id="roomGlassHouseButtonID" layoutX="492.0" layoutY="209.0" onAction="#buttonPressed" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #00364d;" text="Glasshouse" textFill="WHITE" />
+      <JFXButton fx:id="roomRecordingRoomButtonID" layoutX="140.0" layoutY="209.0" onAction="#buttonPressed" style="-fx-background-color: #00364d;" text="Recording Room" textFill="WHITE" />
+      <JFXButton fx:id="roomStudioRoomButtonID" layoutX="319.0" layoutY="209.0" onAction="#buttonPressed" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #00364d;" text="Studio Room" textFill="WHITE" />
+      <JFXButton fx:id="roomBackButtonID" layoutX="5.0" layoutY="261.0" prefHeight="25.0" prefWidth="71.0" text="&lt;&lt; Back" textFill="#00364d" />
+      <Label layoutX="14.0" layoutY="73.0" text="7th Floor" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="106.0" text="6th Floor" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="139.0" text="5th Floor" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="172.0" text="4th Floor" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="209.0" text="3rd Floor" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

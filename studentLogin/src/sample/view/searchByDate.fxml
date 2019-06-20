@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SearchByDateController">
+   <children>
+      <ImageView fitHeight="19.0" fitWidth="155.0" layoutX="194.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ciitrooms.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="73.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-calendar-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="127.0" layoutY="59.0" text="SEARCH BY DATE" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="pickDatePickerID" defaultColor="#00364d" editable="false" layoutX="90.0" layoutY="107.0" promptText="mm/dd/yyyy" />
+      <JFXButton fx:id="nextButtonID" layoutX="266.0" layoutY="161.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #00364D;" text=" Next &gt;&gt;" textFill="WHITE" />
+      <JFXButton fx:id="backButonIdD" layoutX="14.0" layoutY="161.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #00364D;" text="&lt;&lt; Back" textFill="WHITE" />
+   </children>
+</AnchorPane>

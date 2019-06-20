@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="othersField" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.StudentInfoController">
+   <children>
+      <Rectangle fill="#00364d" height="400.0" stroke="TRANSPARENT" strokeType="INSIDE" width="143.0" />
+      <ImageView fitHeight="88.0" fitWidth="67.0" layoutX="41.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/avatar-white.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="adminNameLabel" alignment="CENTER" layoutX="23.0" layoutY="137.0" prefHeight="17.0" prefWidth="99.0" text="ADMIN NAME" textAlignment="CENTER" textFill="WHITE" />
+      <Label fx:id="adminIDNumberLabel" layoutX="44.0" layoutY="154.0" text="17-171696" textFill="WHITE" />
+      <ImageView fitHeight="33.0" fitWidth="25.0" layoutX="28.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-shutdown-64.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="adminLogOutButton" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="340.0" prefHeight="25.0" prefWidth="99.0" ripplerFill="#00364d" text="Log Out" textFill="WHITE" />
+      <JFXTextField fx:id="nameField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="207.0" layoutY="67.0" promptText="Christine Paez" unFocusColor="#00364d" />
+      <JFXTextField fx:id="numberField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="397.0" layoutY="67.0" promptText="17-171693" unFocusColor="#00364d" />
+      <JFXTextField fx:id="purposeField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="207.0" layoutY="141.0" promptText="Purpose" unFocusColor="#00364d" />
+      <Label layoutX="395.0" layoutY="141.0" text="Description" textFill="#0000008c">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="descriptionField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="396.0" layoutY="166.0" prefHeight="32.0" prefWidth="143.0" unFocusColor="#00364d" />
+      <Label layoutX="179.0" layoutY="122.0" text="Details" textFill="#00374d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="41.0" text="Student Info" textFill="#00374d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="roomField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="207.0" layoutY="173.0" promptText="Room" unFocusColor="#00364d" />
+      <JFXTextField fx:id="dateField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="207.0" layoutY="205.0" promptText="Date" unFocusColor="#00364d" />
+      <JFXTextField fx:id="timeStartField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="395.0" layoutY="205.0" prefHeight="25.0" prefWidth="57.0" promptText="Start" unFocusColor="#00364d" />
+      <Label layoutX="464.0" layoutY="203.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="timeEndField" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="483.0" layoutY="205.0" prefHeight="25.0" prefWidth="57.0" promptText="End" unFocusColor="#00364d" />
+      <Label layoutX="177.0" layoutY="257.0" text="Paraphernalia " textFill="#00374d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXCheckBox fx:id="tvCheckBox" checkedColor="WHITE" layoutX="199.0" layoutY="286.0" text="Television" textFill="#00364d" unCheckedColor="#00364d" />
+      <JFXCheckBox fx:id="micCheckBox1" checkedColor="WHITE" layoutX="199.0" layoutY="314.0" text="Microphone" textFill="#00364d" unCheckedColor="#00364d" />
+      <JFXCheckBox fx:id="ltCheckBox2" checkedColor="WHITE" layoutX="303.0" layoutY="313.0" text="Laptop" textFill="#00364d" unCheckedColor="#00364d" />
+      <JFXCheckBox fx:id="othersCheckBox3" checkedColor="WHITE" layoutX="199.0" layoutY="342.0" text="Others:" textFill="#00364d" unCheckedColor="#00364d" />
+      <JFXCheckBox fx:id="skCheckBox4" checkedColor="WHITE" layoutX="302.0" layoutY="285.0" text="Speakers" textFill="#00364d" unCheckedColor="#00364d" />
+      <JFXTextField fx:id="dateField1" alignment="CENTER" editable="false" focusColor="#00364d" layoutX="271.0" layoutY="334.0" prefHeight="25.0" prefWidth="109.0" unFocusColor="#00364d" />
+      <JFXButton fx:id="approveButton" layoutX="426.0" layoutY="285.0" prefHeight="32.0" prefWidth="123.0" ripplerFill="#00364d" style="-fx-background-color: #00364D;" text="APPROVE" textAlignment="CENTER" textFill="WHITE" />
+      <JFXButton fx:id="declineButton" layoutX="426.0" layoutY="328.0" prefHeight="32.0" prefWidth="123.0" ripplerFill="#00364d" style="-fx-background-color: #00364D;" text="DECLINE" textFill="WHITE" />
+      <JFXButton fx:id="backButton" layoutX="539.0" layoutY="14.0" text="Back" />
+   </children>
+</AnchorPane>

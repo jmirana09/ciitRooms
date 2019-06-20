@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #00364D;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RoomsController">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="486.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/ciitroomsWhite.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="34.0" layoutY="97.0" text="7th Floor" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="286.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/roomsIcon.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="326.0" layoutY="56.0" text="Rooms" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="room701ID" layoutX="310.0" layoutY="93.0" onAction="#buttonPressed" text="Room 701" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room606ID" layoutX="148.0" layoutY="128.0" onAction="#buttonPressed" text="Room 606" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <Label layoutX="34.0" layoutY="132.0" text="6th Floor" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="166.0" text="5th Floor" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="200.0" text="4th Floor" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="236.0" text="3rd Floor" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="room506ID" layoutX="148.0" layoutY="162.0" onAction="#buttonPressed" text="Room 506" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room605ID" layoutX="246.0" layoutY="128.0" onAction="#buttonPressed" text="Room 605" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room505ID" layoutX="246.0" layoutY="162.0" onAction="#buttonPressed" text="Room 505" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room604ID" layoutX="335.0" layoutY="128.0" onAction="#buttonPressed" text="Room 604" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room603ID" layoutX="422.0" layoutY="128.0" onAction="#buttonPressed" text="Room 603" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room602ID" layoutX="515.0" layoutY="128.0" onAction="#buttonPressed" text="Room 602" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room601ID" layoutX="605.0" layoutY="128.0" onAction="#buttonPressed" text="Room 601" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room502ID" layoutX="515.0" layoutY="162.0" onAction="#buttonPressed" text="Room 502" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room504ID" layoutX="337.0" layoutY="162.0" onAction="#buttonPressed" text="Room 504" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room503ID" layoutX="422.0" layoutY="162.0" onAction="#buttonPressed" text="Room 503" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room501ID" layoutX="605.0" layoutY="162.0" onAction="#buttonPressed" text="Room 501" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room403ID" layoutX="189.0" layoutY="196.0" onAction="#buttonPressed" text="Room 403" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room402ID" layoutX="351.0" layoutY="196.0" onAction="#buttonPressed" text="Room 402" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="room401ID" layoutX="532.0" layoutY="196.0" onAction="#buttonPressed" text="Room 401" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="RecordingRoomID" layoutX="176.0" layoutY="232.0" onAction="#buttonPressed" text="Recording Room" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="StudioRoomID" layoutX="342.0" layoutY="232.0" onAction="#buttonPressed" text="Studio Room" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="GlasshouseID" layoutX="529.0" layoutY="232.0" onAction="#buttonPressed" text="Glasshouse" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

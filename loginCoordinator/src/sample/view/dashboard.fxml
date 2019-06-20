@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.DashboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00364d" height="500.0" stroke="TRANSPARENT" strokeType="INSIDE" width="216.0" />
+      <JFXButton fx:id="logoutButtonID" layoutX="75.0" layoutY="421.0" text="Logout" textFill="WHITE" />
+      <Label layoutX="250.0" layoutY="41.0" text="Available Schedules">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="coordinatorPicID" fitHeight="123.0" fitWidth="106.0" layoutX="55.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/avatar-white.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="55.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/logoutIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="230.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/calendarIcon.png" />
+         </image>
+      </ImageView>
+      <JFXComboBox fx:id="comboBoxDayID" layoutX="270.0" layoutY="89.0" prefHeight="40.0" prefWidth="157.0" promptText="Day" />
+      <JFXListView fx:id="schedListViewID" layoutX="229.0" layoutY="208.0" prefHeight="281.0" prefWidth="200.0" />
+      <JFXTextField fx:id="purposeTxtFieldID" alignment="CENTER" layoutX="456.0" layoutY="96.0" prefHeight="40.0" prefWidth="231.0" promptText="SUBJECT CODE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextArea fx:id="descriptionTxtAreaID" layoutX="455.0" layoutY="151.0" prefHeight="86.0" prefWidth="231.0" promptText="Subject Description" />
+      <JFXButton fx:id="updateButtonID" layoutX="536.0" layoutY="381.0" style="-fx-background-color: #00364D;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+
+      </JFXButton>
+
+      <Label fx:id="coorLabelID" layoutX="60.0" layoutY="151.0" text="Juan Dela Cruz" textFill="WHITE" />
+      <JFXTextField fx:id="profTxtFieldID" alignment="CENTER" layoutX="456.0" layoutY="250.0" prefHeight="31.0" prefWidth="231.0" promptText="Instructor" />
+      <Label layoutX="230.0" layoutY="143.0" text="Start Time:" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="143.0" text="End Time:" textFill="#00364d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXTimePicker fx:id="timeStartID" defaultColor="#00364d" layoutX="221.0" layoutY="162.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="31.0" prefWidth="98.0" promptText="hh:mm" />
+      <JFXTimePicker fx:id="endTimeID" defaultColor="#00364d" layoutX="342.0" layoutY="162.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="31.0" prefWidth="92.0" promptText="hh:mm" />
+      <Label fx:id="roomLabelID" layoutX="554.0" layoutY="44.0" text="Label" />
+   </children>
+</AnchorPane>
